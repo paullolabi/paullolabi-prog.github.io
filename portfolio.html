@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio | Paul Olabi</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:#081120;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+.hero{
+    padding:100px 20px;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("assets/images/portfolio-banner.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#d1d5db;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:40px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.project{
+    background:#1e293b;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-8px);
+}
+
+.project img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.content{
+    padding:25px;
+}
+
+.content h3{
+    margin-bottom:12px;
+}
+
+.content p{
+    color:#d1d5db;
+    margin-bottom:18px;
+}
+
+.tags{
+    margin-bottom:20px;
+}
+
+.tags span{
+    display:inline-block;
+    background:#2563eb;
+    padding:6px 12px;
+    border-radius:20px;
+    margin:5px;
+    font-size:13px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:6px;
+}
+
+.cta{
+    background:#081120;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.cta h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.cta p{
+    max-width:650px;
+    margin:auto;
+    color:#cbd5e1;
+}
+
+footer{
+    background:#020617;
+    padding:30px;
+    text-align:center;
+    color:#94a3b8;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:40px;
+}
+
+}
+@media(max-width:460px){
+   .logo{
+      display: none;
+   } 
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Paul<span>.</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>My Portfolio</h1>
+
+<p>
+Explore a selection of website concepts created for authors, writers, and publishers. Every design focuses on creating a professional online presence and helping books reach more readers.
+</p>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<div class="projects">
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Fantasy Author Website</h3>
+
+<p>
+A modern website concept for a fantasy novelist featuring books, series, newsletter signup, and author biography.
+</p>
+
+<div class="tags">
+<span>HTML</span>
+<span>CSS</span>
+<span>Responsive</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Book Landing Page</h3>
+
+<p>
+A focused landing page created to increase book visibility, encourage purchases, and grow an email list.
+</p>
+
+<div class="tags">
+<span>Landing Page</span>
+<span>Book Marketing</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Business Author Website</h3>
+
+<p>
+Professional branding website for a business author with speaking, books, blog, and contact sections.
+</p>
+
+<div class="tags">
+<span>WordPress</span>
+<span>Author Brand</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Children's Author Website</h3>
+
+<p>
+Bright and engaging website designed to showcase children's books and connect with parents and schools.
+</p>
+
+<div class="tags">
+<span>UI Design</span>
+<span>Responsive</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Christian Author Website</h3>
+
+<p>
+Elegant website concept for Christian authors featuring devotionals, books, events, and newsletter signup.
+</p>
+
+<div class="tags">
+<span>Clean Design</span>
+<span>SEO Ready</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+
+
+<div class="content">
+
+<h3>Personal Author Brand</h3>
+
+<p>
+A personal brand website helping authors showcase their books, achievements, blog, and media appearances.
+</p>
+
+<div class="tags">
+<span>Portfolio</span>
+<span>Modern UI</span>
+</div>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+Need a Website Like These?
+</h2>
+
+<p>
+Whether you're launching your first book or growing your author brand, I can help you create a professional website that reflects your vision and connects with readers.
+</p>
+
+<br><br>
+
+<a href="contact.html" class="btn">
+Start Your Project
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Paul Olabi | Author Website Designer
+
+</footer>
+
+</body>
+</html>
