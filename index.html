@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Olabi | Author Website Designer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      color: white;
+      background: #0f172a;
+    }
+
+
+    .hero {
+     background-image: linear-gradient(rgba(0,0,0,0.6), #00000099),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920&q=80");
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+     
+    .btn:hover{
+        transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #f8fafc;
+    }
+
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+
+    .card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+      color: #cbd5e1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    @media(max-width:460px){
+      .hero h1 {
+      font-size: 2rem;
+    }
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <section class="hero">
+   
+    <div class="hero-content">
+      <h1>I Design Author Websites That Help You Sell More Books</h1>
+      <p>Book Landing Pages • WordPress Websites • AI Book Trailers</p>
+      <a href="portfolio.html" class="btn">View My Work</a>
+    </div>
+  </section>
+
+
+  <section>
+    <h2>My Services</h2>
+    <div class="services">
+
+      <div class="card">
+        <h3>Author Website Design</h3>
+        <p>Professional websites for authors to showcase their books and brand.</p>
+      </div>
+
+      <div class="card">
+        <h3>Book Landing Pages</h3>
+        <p>High-converting pages designed to sell books online.</p>
+      </div>
+
+      <div class="card">
+        <h3>WordPress Websites</h3>
+        <p>Modern, responsive websites built for authors and publishers.</p>
+      </div>
+
+      <div class="card">
+        <h3>AI Book Trailers</h3>
+        <p>Engaging promotional videos for book marketing.</p>
+      </div>
+
+    </div>
+  </section>
+
+ 
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio">
+
+      <div class="card">
+        <h3>Fantasy Author Website</h3>
+        <p>Concept design for fiction authors.</p>
+      </div>
+
+      <div class="card">
+        <h3>Book Landing Page</h3>
+        <p>High-converting book sales page design.</p>
+      </div>
+
+      <div class="card">
+        <h3>Non-Fiction Author Site</h3>
+        <p>Professional personal branding website.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        I’m Paul Olabi, a freelance web designer specializing in author websites and book marketing pages. I help writers turn their books into professional online brands that attract readers and increase visibility.
+      </p>
+    </div>
+  </section>
+
+  
+  <section>
+    <h2>Let’s Work Together</h2>
+    <div class="contact">
+      <p>Ready to build your author website or book landing page?</p>
+      <a href="contact.html" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Paul Olabi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
